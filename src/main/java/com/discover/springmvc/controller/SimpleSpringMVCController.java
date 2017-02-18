@@ -8,6 +8,13 @@ import org.springframework.web.servlet.mvc.Controller;
 
 public class SimpleSpringMVCController implements Controller {
 
+	/**
+	 * 只是一个测试
+	 * @param arg0
+	 * @param arg1
+	 * @return
+	 * @throws Exception
+	 */
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest arg0, HttpServletResponse arg1) throws Exception {
 		
